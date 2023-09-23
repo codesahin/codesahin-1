@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>golge</title>
+    <!-- örneğin şimdi body etşketine arka plan verelim
+         ve sonra div etiketine stil verelim -->
+    <style>
+      body {
+        background-color: blue;
+      }
+
+      div {
+        width: 300px;
+        height: 150px;
+        background-color: brown;
+        margin: 50px auto 0 auto;
+        box-shadow: 10px 5px 4px rgb(8, 8, 8);
+        border-radius: 10px 20px 30px 40px;
+        transform: rotate(45deg);
+        text-align: center;
+        padding: 150px 0 0 0;
+        font: bold 30px tahoma;
+      }
+      .yazi{
+        color: blanchedalmond;
+        font: bold 22px tahoma;
+        text-align: right;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- box-shadow ifadesi gölgelendirme için kullanalılır ilk sayı sağ taraf gölgesini ikinci ise alttaraf üçüncü gölge yoğunlu
+        # li ifadeyse gölgenin rengini belirler  //// 
+        eğer gölgeleri sola vermek istersek sağa gölge veren ilk sayının başına - eksi koyarız aynı şekilde alts değilde üste gölge vermek
+        istersek bu seferde alta gölg veren 2. sayının başına - ifadesi kullanırız/////
+        eğer her iki tarafa vermek istersek bir box-shadow daha açıp biri eksili biri artılı olarak yazolor
+    -->
+ <!--
+    şimdiya kadar stil vw-ermek için etiket içinde stil paramaetresini kullandık 
+    şimdide 2. yöntem olan ve en sık kullanacağımız yöntem olan head taglarının içine <style></style> etiketini açarak içerisine 
+    stil vermek istediğimşiz etiket isminin yanına {} parantez açıp içerisine örn/ color:red; yazarak yada y,ne style etiketinin içine 
+    . yanına bir class ixmi belirleyerek {}içerisine ifadeleri koyup bunu istediğimiz etiket içine class ismi ile tanımlamak olacak
+
+    şimdi ilk kutuyu yorum satırı yaptım ve aynı şekilleri etiket ismi ve class la ayapıcam!!!
+         -->
+         <h1 class="yazi">calisma-sayfam</h1>
+
+    <div>box1</div>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+/* p --> tüm p etiketleri etkilendi
+p{
+    color: red;
+} */
+
+/* div p --> dediğimizde div içerisndeki p ler etkilendi paragraf 1 2 3
+ div içerinde olduğu için blue rengini alırken paragraf 4 5 div içeirnde olma
+ dığı için p etk verdiğimiz red renginden etkilenerek kaldı
+
+
+div p{
+    color: blue;
+} */
+
+.container div {
+    color: coral;
+}
+ 
+.container .p1{
+color: blueviolet;
+}
+ div div{
+    display: block; 
+    background-color: rgb(53, 47, 38);
+ }
+ 

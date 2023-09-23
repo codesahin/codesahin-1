@@ -1,0 +1,200 @@
+body {
+  background-color: aqua;
+}
+
+.sablon {
+  width: 100%;
+  height: 600px;
+  background-color: white;
+  margin: 150px auto;
+  padding: 100px 0 0 0;
+}
+
+.tv {
+  width: 760px;
+  height: 460px;
+  border-top: 20px solid black;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.manzara {
+  width: 760px;
+  height: 210px;
+  background-color: #c4f4fd;
+  padding: 30px 0 0 0;
+}
+
+.günes {
+  width: 60px;
+  height: 60px;
+  background-color: #ff9944;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #eda23d, -5px -1px 5px #eda23d;
+  margin: 0 auto 0 auto;
+}
+
+.soldag {
+  width: 300px;
+  height: 160px;
+  background-color: #0ff21e;
+  border-radius: 0 100% 0 0;
+  margin: -10px 0 0 0;
+  float: left;
+  position: relative;
+  z-index: 2;
+}
+.ortadag {
+  width: 300px;
+  height: 140px;
+  background-color: #0dd11a;
+  border-radius: 0 100% 0 0;
+  margin: 10px 0 0 -145px;
+  float: left;
+  position: relative;
+  z-index: 1;
+}
+.sagdag {
+  width: 350px;
+  height: 160px;
+  background-color: #1ba824;
+  border-radius: 100% 0 0 0;
+  margin: -10px 0 0 410px;
+  float: left;
+  position: absolute;
+  z-index: 3;
+}
+.asfalt {
+  width: 760px;
+  height: 85px;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  background-color: #666;
+  clear: both;
+  float: left;
+}
+.refuj {
+  width: 760px;
+  height: 10px;
+  background-color: #743e2c;
+  float: left;
+}
+.asfalt2 {
+  width: 760px;
+  height: 85px;
+  border-bottom: 4px solid white;
+  border-top: 4px solid white;
+  background-color: #666;
+  float: left;
+}
+.altkenar {
+  width: 760px;
+  height: 26px;
+  background-color: black;
+  font: bold 15px tahoma;
+  color: #c4f4fd;
+  text-align: center;
+  float: left;
+}
+.araba1 {
+  width: 40px;
+  height: 25px;
+  margin: 3px 0 0 710px;
+}
+.cam {
+  width: 30px;
+  height: 10px;
+  background-color: #c4f4fd;
+  border-radius: 8px 8px 0 0;
+  margin: 0 auto;
+}
+.kaporta1 {
+  width: 40px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 10px;
+}
+.teker1 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 5px;
+  margin: -5px 0 0 5px;
+  float: left;
+}
+.teker2 {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 5px;
+  float: left;
+  margin: -5px 0 0 10px;
+}
+.cizgi1 {
+  width: 120px;
+  height: 10px;
+  background-color: white;
+  margin: 10px 0 0 32px;
+  float: left;
+}
+.araba2 {
+  width: 40px;
+  height: 25px;
+  margin: 5px 0 0 110px;
+  float: left;
+}
+.kaporta2 {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(17, 255, 0);
+  border-radius: 10px;
+}
+.araba3 {
+  width: 40px;
+  height: 25px;
+  margin: 5px 0 0 120px;
+  float: left;
+}
+.kaporta3 {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(214, 96, 11);
+  border-radius: 10px;
+}
+.araba4 {
+  width: 40px;
+  height: 25px;
+  margin: 1px 0 0 15px;
+}
+.kaporta4 {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(78, 198, 220);
+  border-radius: 10px;
+}
+.araba5 {
+  width: 40px;
+  height: 25px;
+  margin: 5px 0 0 550px;
+  float: left;
+}
+.kaporta5 {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(220, 78, 95);
+  border-radius: 10px;
+}
+.araba6 {
+  width: 40px;
+  height: 25px;
+  margin: 5px 0 0 80px;
+  float: left;
+}
+.kaporta6 {
+  width: 40px;
+  height: 10px;
+  background-color: rgb(241, 250, 252);
+  border-radius: 10px;
+}

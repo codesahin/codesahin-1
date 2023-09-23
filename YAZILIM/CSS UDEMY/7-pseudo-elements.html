@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo.elements</title>
+    <style>
+      p::first-line {
+        font-weight: bold;
+        color: red;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+      }
+      p::first-letter {
+        font-size: 60px;
+        color: blue;
+      }
+      ul li {
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+      ul li:first-child {
+        background-color: burlywood;
+      }
+      ul li:last-child {
+        background-color: cadetblue;
+      }
+      a:visited{
+        color: fuchsia;
+      }
+      a:hover{
+        color: rgb(92, 87, 81);
+        background-color: cadetblue;
+      }
+      a{padding: 5px 10px;
+        text-decoration: none;
+        display: block;
+        width: 100px;
+        margin-bottom: 10px;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>baslik1</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque id
+      fuga, accusantium exercitationem laboriosam ea. Incidunt architecto
+      dignissimos officiis sapiente nobis, distinctio libero deleniti vitae
+      ipsa, quia id non odit?
+    </p>
+    <h1>baslik2</h1>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit non
+      molestias quis suscipit nemo odio. Libero ipsam doloribus nisi in maxime!
+      Doloremque numquam vitae debitis quod minus temporibus quaerat facere!
+    </p>
+    <div>
+      <ul>
+        <li>madde1</li>
+        <li>madde2</li>
+        <li>madde3</li>
+        <li>madde4</li>
+      </ul>
+    </div>
+
+    <a href="#">Link 1</a><BR></BR>
+    <a href="#">Link 2</a>
+  </body>
+</html>

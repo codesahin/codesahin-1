@@ -1,0 +1,82 @@
+body{ background: url( images/bg.gif) repeat; font-family: Arial, sans-serif;}
+.container{ width: 821px; height: auto; margin: auto; padding: 0px;}
+.header{ width: 821px; height: 105px; margin: 0px; padding: 30px 0 0 0;
+background: url(images/header_bg.gif) no-repeat;}
+.logo{ width: 821; height: 94;  }
+.menu{ width: 821px; height: 42px; background: url(images/menu_bg.gif);}
+.content{ width: 821px; height: 745px; background-color: #e9e5e2;}
+.left_content{ width: 500px; height: auto; float: left;}
+.right_content{ width: 300px; height: auto; float: left;}
+.footer{ width: 821px; height: 50px; clear: both; color: #837d7b;}
+.altmenu{ width: 300px; height: 50px; float: left;}
+.altmenu ul{ margin: 0; padding: 0; list-style: none;}
+.altmenu ul li{ float: left;}
+.altmenu ul li a{ display: block; text-decoration: none; height: 20px; padding: 0 10px;
+     font: normal 12px tahoma; color: gray; margin: 15px 0 0 0;}
+.css{ width: 176px; height: 27px; float: left; margin: 12px 0 0 320px;}
+.css a{ display: block; width: 176px; height: 27px; 
+    background: url(images/csstemplatesmarket.gif) no-repeat;}
+
+.menu ul{ padding: 0; margin: 0; list-style: none;} 
+.menu ul li{ float: left;}
+.menu ul li a{display: block; width: auto; height: 30px; padding: 12px 15px 0 15px;
+color: white; text-decoration: none; font-family: Arial, Helvetica, sans-serif;
+font-size: 14px; }
+.menu ul li#home a{ background: url(images/menu_bullet.gif) no-repeat center bottom; }
+.menu ul li a:hover{ background: url(images/menu_bullet.gif) no-repeat center bottom;
+text-decoration: underline;}
+.H{ width: 137px; height: 260px; padding: 10px 0 0 50px;}
+.form{ width: 273px ; height: 156px; background: url(images/text_box.gif); padding: 3px 0 0 15px;
+margin: 25px 0 0 0;}
+.form h2{ display: block; font-family: Arial, sans-serif; color: #2e2721;  }
+.user{ font: 15px arial, sans-serif; }
+.user input{ border-radius: 3px; width: 125px; margin: 0 0 0 5px; border:0;}
+.pass{ font: 15px arial, sans-serif; margin: 0 0 0 1px;}
+.pass input{ border-radius: 3px; width: 125px; margin: 8px 0  0 5px; border: 0;}
+.login{ float: right; margin: 15px 15px 0 0;}
+.testimo{ width: 300px; height: 231px;  padding: 20px 0 20px 0 ; margin: 20px 0 0 0;}
+.testimonials{font:bold 22px verdana; }
+.title{width: auto;
+    padding: 2px 0 10px 0;
+    font-size: 17px;
+    color: #2e2721;
+    font-weight: bold;}
+.edward{ width: 268px;height: 139px; border-radius: 5px; background: url(images/text_box.gif) no-repeat;
+      padding: 25px 10px 0 10px;}
+.edward p{ font-style: italic; font-family: Arial, sans-serif; text-align:justify;
+    line-height: 18px; font-size:12px;}
+.edward p span{ font: bold 13px arial,sans-serif; font-style: italic;}
+.title_welcome{ width: 440px ; height: 21px; 
+    background: url(images/checked.gif) no-repeat; margin: 35px 0 0 10px; padding: 5px 0 0 36px;
+color: #24a4b3; font-size: 22px;}
+.red{ color: #da5b23; font-weight: bold;}
+.welcome_box{ width: 496px; height: 202px; background: url(images/welcome_box.gif) no-repeat center; }
+.welcome_box p{ display: block; text-align: justify; line-height:22px; font-family: Arial,sans-serif;
+font-size: 13px; padding: 30px 35px 0 35px;}
+.orange{ color: #da5b23; font-weight: bold; text-align: justify;}
+.welcome_box a{ display: block; width: 66px; height: 20px; float: right; 
+    background:url(images/read_more_bg.gif)  no-repeat; text-decoration: none; list-style: none;
+ color: white; font:bold 11px tahoma; margin:-15px 40px 0 0 ; padding: 3px 0 0 20px; }
+ .fatures{ width:500px; height:170px;}
+ .baslik{ width: 380px; height: 30px; font: bold 17px tahoma; color: #2e2721; padding: 2px 0 0 20px; }
+.mainlist{ width: 470px; height: 140px;}
+.mainlist ul{ padding: 0;margin: 0; list-style: none;}
+.mainlist ul li a{ display: block; width: 400px; height: 26px; color: #36322b;
+     text-decoration: none; font-size: 12px; padding: 4px 0 0 8px; margin: 4px 0 0 15px;
+      float: left;}
+.mainlist ul li a:hover{ text-decoration: underline;}
+.mainlist ul li span{ display: block; width: 24px; height: 22px; float: left; 
+    background: url(images/bullet_list.gif); text-align: center; margin: 4px 0 0 15px;
+     padding: 2px 0 0 0;}
+.latest{width: 380px; height: 30px; font: bold 17px tahoma; color: #2e2721;
+     padding: 2px 0 0 20px; margin: 15px 0 0 0;  }
+.latestlist{ width: 496px; height: 240px; }
+.latestlist ul{ padding: 0; margin: 0; list-style: none;}
+.latestlist ul li{ display: block; width: 500px; height: 100px; border-bottom: 1px dashed #cccccc;
+font: 12px arial,sans-serif; line-height: 18px;}
+.latestlist ul li span{ display: block; width: 30px; height: 33px; float: left; 
+    background: url(images/news_icon.gif); margin: 15px 15px 0 15px;}
+.latestlist ul li p{ display: block; width: 420px; height: 100px; float: left;}
+
+
+   

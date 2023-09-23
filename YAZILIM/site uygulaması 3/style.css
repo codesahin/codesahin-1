@@ -1,0 +1,46 @@
+body{ display: block; width: 100%; height: 100%; margin: 0; padding: 0;}
+
+.ust{  width: 100%; height: 45px; background-color: rgb(33, 33, 33);}
+ .menu{ width: 1078px; height: 45px; margin: 0 auto; }
+ .menu ul{ margin: 0; padding: 0; list-style: none;}
+ .menu ul li{ float: left;}
+ .menu ul li a{ display: block; width: 100px; height: 45px; text-indent: -20000px; }
+  .menu ul li#apple a{ background: url(images/tab_apple.png) no-repeat right ;}
+  .menu ul li#store a{ background: url(images/tab_store.png) no-repeat center;}
+  .menu ul li#mac a{ background: url(images/tab_mac.png) no-repeat center; }
+  .menu ul li#iphone a{ background: url(images/tab_iphone.png) no-repeat center;}
+  .menu ul li#watch a{ background: url(images/tab_watch.png) no-repeat center;}
+  .menu ul li#ipad a{ background: url(images/tab_ipad.png) no-repeat center;}
+  .menu ul li#ipod a{ background: url(images/tab_ipod.png) no-repeat center;}
+  .menu ul li#itunes a{ background: url(images/tab_itunes.png) no-repeat center;}
+  .menu ul li#support a{ background: url(images/tab_support.png) no-repeat center;}
+  .menu ul li#search a{ background: url(images/search_icon_white.png) no-repeat left;}
+  .menu ul li a:hover{ opacity: 0.5;}
+
+
+.orta{ width: 800px; height: 400px;  background: url(images/one.jpg);
+margin: 0 auto;}
+.dortlu{ width: 100%; height: 180px;  margin: auto;}
+.dortlu ul{ padding: 0; margin: 0; list-style: none;}
+.dortlu ul li{ float: left; width: 25%;}
+.dortlu ul li a{display: block; height: 180px; text-decoration: none;
+font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #1d2122; font-size: 25px;text-align: center;}
+li#a1 span{ font-weight: bold;}
+.dortlu ul li#a1 a{ background: url(images/imac.jpg) no-repeat center bottom; }
+
+li#a2 span{ font-weight: bold;}
+.dortlu ul li#a2 a{ background: url(images/iphone6.jpg) no-repeat center bottom; }
+
+li#a3 span{ font-weight: bold;}
+.dortlu ul li#a3 a{ background: url(images/IOS_15_logo.png) no-repeat center bottom; }
+
+li#a4 span{ font-weight: bold;}
+.dortlu ul li#a4 a{ background: url(images/education.jpg) no-repeat center bottom; }
+
+
+
+
+
+
+.alt{ width: 100%; height: 100px; }
